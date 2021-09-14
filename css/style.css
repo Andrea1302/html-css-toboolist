@@ -26,3 +26,9 @@ main{
     background-color: rgb(247, 241, 241);
     height: 1000px;
 }
+.container{
+    margin: 20px auto 2px;
+    background-color: white;
+    height: 90%;
+
+}
