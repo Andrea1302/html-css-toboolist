@@ -9,17 +9,20 @@
 }
 
 /* header  */
-#logo{
-    margin: 25px 0 10px 25px;
-}
+
 #intestazione{
     font-size: 40px;;
     font-weight: bold;
     height: 100px;
     line-height: 100px;
+}
+#logo{
+    margin-left: 20px;
     vertical-align: middle;
 }
-
+.intestazione span{
+    vertical-align: middle;
+}
 /* main */
 
 main{
@@ -29,8 +32,20 @@ main{
     padding-bottom: 10px;
 }
 .container{
-    margin: 20px 100px 2px;
+    margin: 20px auto 2px;
     background-color: white;
     height: 98%;
     border-radius: 1%;
+    width: 80%;
 }
+
+/* Sezione principale */
+.first{
+    border-bottom:2px solid rgb(238, 238, 238);
+}
+.button{
+    border-radius: 5%;
+    display: inline-block;
+    margin:5px 30px;
+}
+.buno
