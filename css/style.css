@@ -93,3 +93,15 @@ h2{
     padding: 3px 6px;
     color: white;
 }
+
+.sezione{
+    margin-bottom: 15px;
+}
+.spuntacross::before{
+    content: '\274C';
+    font-size: 10px;
+    color: rgb(253, 55, 55);
+    border: 1px solid rgb(253, 55, 55);
+    border-radius: 50%;
+    padding:3px
+}
