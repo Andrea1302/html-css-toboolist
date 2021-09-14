@@ -77,4 +77,8 @@ h2{
 }
 .spuntacheck::before{
     content: '\2713';
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding:1px
 }
