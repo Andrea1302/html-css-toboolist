@@ -37,15 +37,44 @@ main{
     height: 98%;
     border-radius: 1%;
     width: 80%;
+    padding-left: 50px;
 }
 
 /* Sezione principale */
 .first{
     border-bottom:2px solid rgb(238, 238, 238);
+
 }
 .button{
-    border-radius: 5%;
+    
     display: inline-block;
-    margin:5px 30px;
+    margin:5px 5px 5px 0;
+
+    
 }
-.buno
+.buno{
+    
+    width: 100px;
+    padding: 10px auto;
+    height: 30px;
+    border-radius: 10%;
+}
+#primo{
+    background-color:rgb(0, 130, 236);
+    color: white;
+    font-weight: bold;
+}
+.button.due{
+    margin-left: 0;
+}
+h2::before{
+    content: '\25BC';
+    font-size: 15px;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.spuntacheck::before{
+    content: '\2713';
+}
