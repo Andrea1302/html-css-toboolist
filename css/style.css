@@ -23,12 +23,14 @@
 /* main */
 
 main{
-    background-color: rgb(247, 241, 241);
+    background-color: rgb(238, 238, 238);
     height: 1000px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 .container{
-    margin: 20px auto 2px;
+    margin: 20px 100px 2px;
     background-color: white;
-    height: 90%;
-
+    height: 98%;
+    border-radius: 1%;
 }
