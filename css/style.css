@@ -27,17 +27,16 @@
 
 main{
     background-color: rgb(238, 238, 238);
-    height: 1000px;
     padding-top: 40px;
     padding-bottom: 10px;
 }
 .container{
     margin: 20px auto 2px;
     background-color: white;
-    height: 98%;
     border-radius: 1%;
     width: 80%;
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 /* Sezione principale */
@@ -87,6 +86,12 @@ h2{
     font-weight: 2px;
     color: rgb(12, 1, 1);
 }
+.figure{
+    background-color: rgb(0, 130, 236);
+    border-radius: 7px;
+    padding: 3px 6px;
+    color: white;
+}
 .figure.blue{
     background-color: rgb(0, 130, 236);
     border-radius: 7px;
@@ -104,4 +109,19 @@ h2{
     border: 1px solid rgb(253, 55, 55);
     border-radius: 50%;
     padding:3px
+}
+.figure.purple{
+    background-color: blueviolet;
+}
+.figure.green{
+    background-color: green;
+}
+.figure.orange{
+    background-color: orange;
+}
+.figure.lilla{
+    background-color: plum;
+}
+.figure.verdechiaro{
+    background-color: rgb(136, 255, 136);
 }
