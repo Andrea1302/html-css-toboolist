@@ -1,0 +1,142 @@
+/* comandi generali */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif,Arial, Helvetica;
+}
+
+/* header  */
+
+#intestazione{
+    font-size: 40px;;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+}
+#logo{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.intestazione span{
+    vertical-align: middle;
+}
+/* main */
+
+main{
+    background-color: rgb(238, 238, 238);
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.container{
+    margin: 20px auto 2px;
+    background-color: white;
+    border-radius: 1%;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.contenitore_2{
+    padding-left: 50px;
+}
+
+/* Sezione principale */
+.first{
+    border-bottom:2px solid rgb(238, 238, 238);
+    padding-left: 50px;
+
+}
+.button{
+    
+    display: inline-block;
+    margin:5px 5px 5px 0;
+
+    
+}
+.buno{
+    text-decoration: none;
+    padding: 2px 6px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgb(0, 130, 236);
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.buno:hover{
+    zoom: 150%;
+}
+#second{
+    background-color: #ccc;
+}
+#second:hover{
+    background-color: rgb(0, 130, 236);
+    
+}
+
+
+h2::before{
+    content: '\25BC';
+    font-size: 15px;
+}
+h2{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.spuntacheck::before{
+    content: '\2713';
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding:1px
+}
+.testo{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.705);
+}
+.text{
+    font-size: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+}
+span.figure{
+    height: 25px;
+    border-radius: 7px;
+    padding: 3px 6px;
+    color: white;
+    display: inline-block;
+}
+.figure.editorial{
+    background-color: rgb(0, 130, 236);
+    
+}
+
+.sezione{
+    margin-bottom: 15px;
+}
+.spuntacross::before{
+    content: '\274C';
+    font-size: 10px;
+    color: rgb(253, 55, 55);
+    border: 1px solid rgb(253, 55, 55);
+    border-radius: 50%;
+    padding:3px
+}
+.figure.q1goals{
+    background-color: blueviolet;
+}
+.figure.recruting{
+    background-color: green;
+}
+.figure.mobile{
+    background-color: orange;
+}
+.figure.website{
+    background-color: plum;
+}
+.figure.sales{
+    background-color: rgb(136, 255, 136);
+}
